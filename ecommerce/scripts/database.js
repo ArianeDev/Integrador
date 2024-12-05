@@ -110,7 +110,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         imagemProduto: {
             img1:"./images/livros/Will&Will/img1.jpg",
             img2:"./images/livros/Will&Will/img2.jpg",
-            img3:"./images/livros/Autora/img3.png",
+            img3:"./images/livros/Autora/JohnGreen.jfif",
 
         },
         categoriaProduto: 'Romance',
