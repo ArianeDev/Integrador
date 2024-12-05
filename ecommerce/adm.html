@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+ <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" />
+  <script src="./scripts/orders.js" type="module" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Menu do site -->
+    <header>
+      <nav>
+        <div class="menu">
+          <a href="/" class="logo"><img src="images/logoBlack.png" alt="Logo da marca"></a>
+          <ol class="nav-list">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="products.html">Produtos</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ol>
+        </div>
+			</nav>
+    </header>
+    <!-- Componente Lista de Pedidos Realizados -->
+    <main class="product main-content container">
+      <div class="containerAdm">
+        <div class="product text-container">
+          <div>
+            <h2 class="main-text">Pedidos</h2>
+            <p>Relaçao de pedidos realizados:</p>
+          </div>
+          <div>
+            <button class="button checkout_btn" id="export-button">EXPORTAR</button>
+          </div>
+        </div>
+        <div class="linha"></div>
+        <section class="product text-container">
+          <div id="orders">
+            <div class="grid_col_1" id="order-list"></div>
+            <div class="grid_col_2"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footerPrincipal">
+        <div>
+            <ul>
+                <li><a href="#">Meus pedidos</a></li>
+                <li><a href="#">Acompanhe seus pedidos</a></li>
+                <li><a href="#">Editar cadastro</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Trabalhe conosco</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Mapa do Site</a></li>
+                <li><a href="#">Atendimento em libras</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="footerSecundario">
+        <small>Ariane Silva 2024 - &copy;Todos os direitos reservados.</small>
+      </div>
+    </footer>
+  </body>
+ </html>

@@ -1,0 +1,150 @@
+.main-content-div{
+    margin-top: 1rem;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 8px rgb(185, 185, 185);
+    border-radius: 1rem;
+    width: 80%;
+}
+#first-section, #secund-section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#secund-section{
+	display: none;
+}
+.total_container {
+    align-items: stretch;
+    padding: 16px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.total {
+    padding-bottom: 10px;
+}
+.total:nth-child(2) h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+.total:nth-child(3){
+    border-top: 1px solid;
+    padding-top: 5px;
+}
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.container-flex-input {
+    display: flex;
+    align-items: center;
+}
+#button-buy{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(214, 214, 214);
+}
+#button-buy:hover{
+    background-color: rgb(162, 162, 162);
+}
+.buttonCheckout{
+    width: 100%;
+}
+.freight_container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+.freight_container form .container-frete{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.freight_container {
+    box-shadow: 1px 4px 10px rgba(161, 161, 161, 0.3);
+    border: 1px solid rgb(240, 240, 240);
+    padding: 8px 16px;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+.freight_container form label{
+   font-size: 0.875em;
+}
+.freight_container form input[type="text"]{
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    padding:4px 8px;
+    width: 60%;
+}
+.freight_container p a{
+    color: rgb(21, 5, 94);
+    text-decoration: none;
+    font-size: 0.75em;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+.freight_container p a:hover{
+    color: rgb(185, 185, 185);
+}
+.button{
+    background-color: rgb(214, 214, 214);
+    text-transform: uppercase;
+    padding: 0.9rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+}
+.button:hover{
+    background-color: rgb(162, 162, 162);
+}
+/* Formulário */
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+    width:100%
+}
+.form-field label {
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.form-field input, select{
+    padding:10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #e4e4e4;
+}
+.form-field input:focus{
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(185, 185, 185);
+    outline: none;
+}
+.form-field.cep,.form-field.uf{
+    width: 20%;
+}
+.pay-method{
+    display: flex;
+    align-items: center;
+}
+.pay-method input[type="radio"]{
+    width: 20px; 
+    height: 20px;
+    outline: none;
+    cursor: pointer;
+    appearance: none; 
+    border-radius: 50%;
+    margin-right: 0.23rem;
+    -webkit-appearance: none;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid rgb(185, 185, 185);
+}
+.pay-method input[type="radio"]:checked {
+    background-color: rgb(185, 185, 185);
+    border: none;
+}

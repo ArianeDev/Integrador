@@ -1,0 +1,59 @@
+#mainAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionAbout{
+    width: 70%;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: justify;
+}
+.sectionAbout h1{
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+.sectionAbout ul{
+    margin-left: 2rem;
+}
+.historia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    .historia img{
+        width: 20%;
+        border-radius: 1rem;
+    }
+    .historia p{
+        width: 60%;
+        text-indent: 1rem;
+        line-height: 1.6;
+    }
+.cardAboutAll{
+    display: flex;
+    justify-content: space-between;
+}
+    .cardAbout{
+        width: 25%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 8px rgb(185, 185, 185);
+        border-radius: 1rem;
+        color: rgb(61, 61, 61);
+        padding: 2rem;
+        margin: 2rem 0;
+        font-size: 14px;
+    }
+        .cardAbout h2{
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            color: rgb(0, 0, 0);
+        }
+        .cardAbout p{
+            text-indent: 1rem;
+            line-height: 1.6;
+        }
+        .cardAbout ul li{
+            margin-top: 1rem;
+        }

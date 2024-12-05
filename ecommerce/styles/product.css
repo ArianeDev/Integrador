@@ -1,0 +1,109 @@
+.product_images_container{
+    display: flex;
+    align-items: center;
+    column-gap: 85px;
+}
+.product_description_container{
+    padding-top: 32px;
+}
+.product_description_container h3.main-text{
+    padding: 20px 0 12px;
+    font-size: 1.2em;
+}
+.product_description_container p{
+   line-height: 24px;
+   padding-bottom: 32px;
+}
+.product_description{
+    text-align: justify;
+}
+.images_selector{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 120px;
+    align-items: center;
+}
+.images_selector ul{
+    list-style: none;
+}
+.images_selector li{
+    padding: 10px 0;
+}
+.product_thumb {
+    width: 100%;
+}
+.images_main{
+    display: flex;
+    width: 400px;
+    height: 600px;
+}
+.images_main img{
+    width: 100%;
+}
+/* Sobre a autora - Início*/
+.autor_container{
+    background-color: var(--color-background);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: justify;
+}
+.autor_container h4{
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+/* Sobre a autora - Fim*/
+/* Opções input radio - Início*/
+.typeBooks{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.container-flex-product {
+    display: flex;
+    align-items: center;
+}
+.freight_pricing {
+    background-color: rgba(21, 5, 94, 0.7);
+    margin-bottom: 16px;
+    border-radius: 5px;
+    column-gap: 20px;
+    padding: 1rem;
+    color: rgb(235, 235, 235);
+}
+.w80{
+    width: 80%;
+}
+.pricing h3{
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 18px;
+}
+.pricing p{
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 18px;
+}
+/* Opções input radio - Fim*/
+.quantity {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+.quantity input{
+    border:1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    padding:4px 8px;
+    width: 100%;
+    font-size: 20px;
+}
+.shop_btn {
+    padding: 16px 32px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(214, 214, 214);
+    transition: .5s;
+}
+.shop_btn:hover{
+    background-color: rgb(162, 162, 162);
+}

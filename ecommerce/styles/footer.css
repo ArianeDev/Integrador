@@ -1,0 +1,30 @@
+.footerPrincipal{
+	display: flex;
+	justify-content: space-around;
+    border-top: 2px solid rgb(227, 227, 227);
+	padding: 2rem;
+	margin-top: 2rem;
+}
+.footerPrincipal ul li{
+    list-style-type: none;
+    margin: 15px;
+}
+.footerPrincipal ul li:first-child{
+    font-weight: 800;
+}
+.footerPrincipal ul li a{
+    color: var(--color-black);
+    text-decoration: none;
+    font-size: 18px;
+}
+.footerPrincipal ul li a:hover{
+    color: var(--color-gray);
+}
+.footerPrincipal h3{
+	color: var(--color-white);
+}
+.footerSecundario{
+    background-color: var(--color-white);
+    text-align: center;
+    padding: 1rem;
+}
