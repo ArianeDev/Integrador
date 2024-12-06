@@ -15,7 +15,7 @@
     padding: 1rem 0;
     margin: 1rem 0;
     color: rgb(23, 23, 23);
-    border-radius: 2rem;
+    border-radius: 1rem;
     background-color: var(--color-white);
     box-shadow: 2px 4px 8px rgb(185, 185, 185);
 }

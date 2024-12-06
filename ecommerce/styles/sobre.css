@@ -32,10 +32,10 @@
     }
 .cardAboutAll{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
     .cardAbout{
-        width: 25%;
+        width: 20%;
         background-color: rgb(255, 255, 255);
         box-shadow: 2px 2px 8px rgb(185, 185, 185);
         border-radius: 1rem;

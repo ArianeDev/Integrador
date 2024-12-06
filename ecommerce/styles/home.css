@@ -38,7 +38,7 @@
 	background-color: var(--color-white);
 	box-shadow: 2px 2px 8px rgb(185, 185, 185);
 	cursor: pointer;
-	transition: .5s;
+	transition: .5s all;
 	padding: 0.5rem;
 }
 	.itens h2{
@@ -48,7 +48,7 @@
 		z-index: 1;
 	}
 	.itens:hover{
-		width: 19vw;
+		box-shadow: 20px 10px 15px rgb(185, 185, 185);
 	}
 .itens .img{
 	display: flex;

@@ -24,7 +24,8 @@
 	color: var(--color-white);
 }
 .footerSecundario{
-    background-color: var(--color-white);
+    background-color: var(--color-purple);
+    color: var(--color-white);
     text-align: center;
     padding: 1rem;
 }

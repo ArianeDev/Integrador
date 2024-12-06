@@ -1,0 +1,8 @@
+.section-product-grid {
+    padding-top: 1.125em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: start;
+    justify-items: center;
+    row-gap: 2rem; 
+}
