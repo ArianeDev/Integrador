@@ -43,9 +43,6 @@ export function findProduct(productList, productId){
 
 export function loadProduct(produto,selecaoProduto){
 
-const productCategory = document.querySelector("#product-category");
-productCategory.innerText = `${produto.categoriaProduto}`;
-
 const productTitle = document.querySelector("#product-title")
 
 productTitle.children[0].innerText = `${produto.tituloProduto}`

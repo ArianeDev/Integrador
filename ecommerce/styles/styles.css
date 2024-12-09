@@ -54,7 +54,7 @@ header{
     transition: all 0.3s ease-in-out;
 }
 .radio input[type="radio"]:checked {
-    background-color: rgba(235, 235, 235, 0.5);
+    background-color: rgba(181, 83, 255, 0.6);
     border: none;
 }
 /* Textos - product, adm*/
