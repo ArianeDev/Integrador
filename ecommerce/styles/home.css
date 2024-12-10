@@ -63,3 +63,7 @@
 .foto{
 	height: 18vh;
 }
+.section-product {
+    padding: 3.125em 0;
+    position: relative;
+}

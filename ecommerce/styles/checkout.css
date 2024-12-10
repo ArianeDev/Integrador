@@ -45,10 +45,14 @@
     padding: 1rem 0;
     margin-bottom: 1.5rem;
     border-radius: 0.5rem;
-    background-color: rgb(214, 214, 214);
+    background-color: var(--color-purple);
+    border: 1px solid var(--color-purple);
+    color: rgb(243, 243, 243);
+    transition: 1s ease;
 }
 #button-buy:hover{
-    background-color: rgb(162, 162, 162);
+    background-color: transparent;
+    color: var(--color-purple);
 }
 .buttonCheckout{
     width: 100%;
@@ -147,4 +151,98 @@
 .pay-method input[type="radio"]:checked {
     background-color: rgb(185, 185, 185);
     border: none;
+}
+.payment {
+    padding:10px 0px
+}
+.form-group {
+    column-gap: 16px;
+}
+.cvv{
+    width: 20%;
+}
+.val{
+    width: 30%;
+}
+.card-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    column-gap: 16px;
+}
+#product_page, #checkout, #billing{
+    display: grid;
+    column-gap: 32px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "col1 col2";
+}
+.cart_item_qtd_selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart_item_qtd_selector_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.cart_item_qtd_selector button {
+    background-color: #c00808;
+    border: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.cart_item_qtd_selector button:hover{
+    background-color: #ff0000;
+}
+.cart_item_qtd_selector_container span{
+    padding: 3px 24px;
+}
+.cart_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.cart_item_main_img {
+    flex-basis: 180px;
+    border-radius: 5px;
+}
+.cart_item_main_img img{
+    width: 120px;
+    object-fit: cover;
+}
+.cart_item_info{
+    width: 40vw;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.cart_item_info p:first-child {
+    font-size: 0.875em;
+    font-weight: 700;
+    padding: 0;
+    padding-bottom: 5px;
+}
+.cart_item_info p:nth-child(2) {
+    font-size: 0.875em;
+    font-weight: 400;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.cart_item_info h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 0;
+    padding-bottom: 8px;
+}
+.column {
+    flex-direction: column;
 }
