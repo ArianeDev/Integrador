@@ -12,6 +12,12 @@
 	display: flex;
 	flex-direction: column;
 }
+.titleProduct {
+	color: #353535;
+	margin: 2rem 0;
+	font-size: 1.4rem;
+}
+
 .AllContainer{
 	display: flex;
 	justify-content: space-evenly;
