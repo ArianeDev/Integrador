@@ -13,12 +13,17 @@
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     padding: 16px;
-    width: 8vw;
-    border-radius: 1rem;
+    width: 10vw;
+    border-radius: 0.1rem;
     box-shadow: 2px 4px 4px 1px rgba(161, 161, 161, 0.4);
+    transition: box-shadow 0.3s ease;
     position: relative;
     cursor: pointer;
 }
+.product-card:hover {
+    box-shadow: 2px 4px 8px 1px rgba(161, 161, 161, 0.8);
+}
+
 .product-card .img{
     display: flex;
     align-items: center;
@@ -67,4 +72,14 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+}
+@media screen and (max-width: 768px) {
+    .carrousel {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .product-card {
+        width: 40vw;
+    }
 }

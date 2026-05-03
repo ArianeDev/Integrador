@@ -6,7 +6,7 @@
     width: 80%;
     padding: 1rem;
     margin-top: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     background-color: var(--color-white);
     box-shadow: 2px 4px 8px rgb(185, 185, 185);
 }
@@ -58,7 +58,24 @@
     font-weight: 600;
     margin-top: 1rem;
 }
-.espaco{
-    content: "";
-    height: 20px;
+
+@media (max-width: 768px) {
+    .containerAdm{
+        width: 90%;
+    }
+    .text-container {
+        padding: 0;
+    }
+    #orders{
+        display: flex;
+        flex-direction: column;
+    }
+    .linha{
+        width: 90%;
+    }
+    .order-card{
+        border-radius: 0.3rem;
+        margin-bottom: 0;
+        width: 100%;
+    }
 }

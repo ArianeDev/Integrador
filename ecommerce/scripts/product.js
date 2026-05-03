@@ -13,8 +13,6 @@ if (listaCompras == null || listaCompras.length == 0){
 let produto = findProduct(database,id)
 let selecaoProduto = document.querySelector(".grid_col_1") 
 
-
-
 loadProduct(produto,selecaoProduto) 
 
 let botaoComprar = document.querySelector(".product_price_container button") 

@@ -3,8 +3,11 @@
     flex-direction: column;
     align-items: center;
 }
+#mainAbout h1{
+    margin-top: 2rem;
+}
 .sectionAbout{
-    width: 70%;
+    width: 80%;
     border-radius: 1rem;
     padding: 2rem;
     text-align: justify;
@@ -12,9 +15,6 @@
 .sectionAbout h1{
     text-align: center;
     margin: 1rem 0 3rem;
-}
-.sectionAbout ul{
-    margin-left: 2rem;
 }
 .historia{
     display: flex;
@@ -35,10 +35,10 @@
     justify-content: space-evenly;
 }
     .cardAbout{
-        width: 20%;
+        width: 25%;
         background-color: rgb(255, 255, 255);
         box-shadow: 2px 2px 8px rgb(185, 185, 185);
-        border-radius: 1rem;
+        border-radius: 0.2rem;
         color: rgb(61, 61, 61);
         padding: 2rem;
         margin: 2rem 0;
@@ -57,3 +57,37 @@
         .cardAbout ul li{
             margin-top: 1rem;
         }
+
+@media (max-width: 768px) {
+    .sectionAbout{
+        width: 90%;
+    }
+    .historia{
+        flex-direction: column;
+    }
+    .historia img{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .historia p{
+        width: 100%;
+    }
+    .cardAboutAll{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardAbout{
+        width: 90%;
+        margin: 1rem 0;
+        padding: 1.2rem;
+    }
+    .cardAbout h2{
+        font-size: 1.1rem;
+    }
+    .cardAbout p{
+        font-size: 0.9rem;
+    }
+    .cardAbout ul li{
+        font-size: 0.9rem;
+    }
+}

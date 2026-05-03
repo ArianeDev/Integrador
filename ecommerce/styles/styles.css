@@ -32,31 +32,6 @@ body{
 header{
     width: 100%;
 }
-
-/* produtos */
-.mainProducts{
-    display: flex;
-    align-items: center;
-}
-.mainProductsDiv{
-    width: 80%;
-}
-/* Input radio, product e checkout */
-.radio input[type="radio"] {
-    appearance: none; 
-    -webkit-appearance: none;
-    width: 20px; 
-    height: 20px;
-    border: 2px solid rgb(235, 235, 235);
-    border-radius: 50%;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-.radio input[type="radio"]:checked {
-    background-color: rgba(181, 83, 255, 0.6);
-    border: none;
-}
 /* Textos - product, adm*/
 .main-text{
     font-size: 1.5em;
@@ -69,11 +44,11 @@ header{
 /* Organização das páginas*/
 .grid_col_1 {
     grid-area: col1;
-    padding:25px
+    padding: 0 25px;
 }
 .grid_col_2 {
     grid-area: col2;
-    padding: 25px;
+    padding: 0 25px;
 }
 /* Título das páginas: sobre e contato */
 .titulo{
